@@ -14,4 +14,6 @@ public interface CommentMapper {
 
     int insertComment(Comment comment);
 
+    Comment selectCommunityById(int id);
+
 }
